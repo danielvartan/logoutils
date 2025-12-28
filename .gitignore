@@ -1,9 +1,3 @@
-/_freeze/
-/.quarto/
-/.Rproj.user/
-/*_cache/
-/cache/
-
 .Rapp.history
 .RData
 .Renviron
