@@ -19,6 +19,9 @@ keywords:
   - Complex Systems
   - Complexity Science
   - Computational Modeling
+  - Defensive Programming
+  - File Management,
+  - List Manipulation
   - Individual Based Modeling
   - Multi-Agent Systems
   - NetLogo
@@ -28,4 +31,4 @@ keywords:
   - Simulations
   - Utilities
 license: GPL-3.0-or-later
-version: 1.0.0.9000
+version: 1.1.0
