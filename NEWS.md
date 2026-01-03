@@ -1,6 +1,7 @@
 # v1.1.0.9000 (development version)
 
-<!-- - A [Zenodo](https://zenodo.org/) DOI was created to facilitate software citation. -->
+- Added a [FAIR](https://www.go-fair.org/) Checklist and FAIR status badges to the repository to make the software’s compliance with FAIR principles more transparent.
+- Registered the software with [Zenodo](https://zenodo.org/) and obtained a DOI to facilitate citation.
 
 # v1.1.0 (2026-01-03)
 

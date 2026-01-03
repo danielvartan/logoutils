@@ -55,19 +55,18 @@
   "license": "https://www.gnu.org/licenses/gpl-3.0",
   "codeRepository": "https://github.com/danielvartan/logoutils",
   "issueTracker": "https://github.com/danielvartan/logoutils/issues",
+  "relatedLink": [
+    "https://doi.org/10.5281/zenodo.18136297",
+    "https://github.com/sponsors/danielvartan"
+  ],
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "NetLogo",
     "version": "7.0.3",
     "url": "https://www.netlogo.org"
   },
-  "operatingSystem": [
-    "Linux",
-    "macOS",
-    "Windows"
-  ],
   "developmentStatus": "active",
   "readme": "https://github.com/danielvartan/logoutils/blob/main/README.md",
   "releaseNotes": "https://github.com/danielvartan/logoutils/blob/main/NEWS.md",
-  "version": "1.1.0"
+  "version": "1.1.0.9000"
 }

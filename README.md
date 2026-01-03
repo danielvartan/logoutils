@@ -2,6 +2,9 @@
 
 <!-- badges: start -->
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![DOI Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18136297-1284C5.svg)](https://doi.org/10.5281/zenodo.18136297)
+[![FAIR Checklist Badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://fairsoftwarechecklist.net/v0.2?f=21&a=32113&i=02220&r=123)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8B-yellow)](https://fair-software.eu)
 [![GPLv3 License Badge](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Contributor Covenant 3.0 Code of Conduct Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
 <!-- badges: end -->
@@ -121,11 +124,13 @@ Several other assertion functions are also available. Check the repository [`nls
 
 ## Citation
 
+[![DOI Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18136297-1284C5.svg)](https://doi.org/10.5281/zenodo.18136297)
+
 If you use `LogoUtils` in your work, please cite it to acknowledge the effort invested in its development and maintenance. Your citation helps support the ongoing improvement of the project.
 
 To cite `LogoUtils` in publications please use the following format:
 
-Vartanian, D. (n.d.). *LogoUtils: Utility functions for NetLogo* [Computer software]. <https://github.com/danielvartan/logoutils>
+Vartanian, D. (n.d.). *LogoUtils: Utility functions for NetLogo* [Computer software]. <https://doi.org/10.5281/zenodo.18136297>
 
 A BibLaTeX entry for LaTeX users is:
 
@@ -133,7 +138,7 @@ A BibLaTeX entry for LaTeX users is:
 @software{vartanian,
   title = {LogoUtils: Utility functions for NetLogo},
   author = {Daniel Vartanian},
-  url = {https://github.com/danielvartan/logoutils},
+  doi = {https://doi.org/10.5281/zenodo.18136297},
   note = {Computer software}
 }
 ```
