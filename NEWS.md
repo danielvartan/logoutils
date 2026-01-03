@@ -1,5 +1,7 @@
 # v1.1.0.9000 (development version)
 
+- `check-world-bleed` now checks for `false` instead of `"NA"`.
+- `str-extract-all` now returns `false` instead of `"NA"`.
 - Added a [FAIR](https://www.go-fair.org/) Checklist and FAIR status badges to the repository to make the software’s compliance with FAIR principles more transparent.
 - Registered the software with [Zenodo](https://zenodo.org/) and obtained a DOI to facilitate citation.
 
