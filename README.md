@@ -54,7 +54,7 @@ These functions follow NetLogo naming conventions for testing, as well as the co
 - [`test-file-exists`](nls/check-file-exists.nls) (`to-report`): Tests whether a file exists.
 - [`is-gis?`](nls/check-gis.nls) `test-gis` (`to-report`): Tests whether a value is a [GIS dataset](https://ccl.northwestern.edu/netlogo/docs/gis.html#gis:type-of).
 - [`is-nan?`](nls/check-nan.nls) `test-nan` (`to-report`): Tests whether a value is `NaN` (not a number). This is useful when using the `gis` extension, as GIS datasets may contain `NaN` values.
-- [`is-between?`](nls/check-between.nls) `test-between` (`to-report`): Tests whether a value is between two numbers.
+- [`is-between?`](nls/check-between.nls) `test-between` (`to-report`): Tests whether a value is equal or between two numbers.
 - [`test-choice`](nls/check-choice.nls) (`to-report`): Tests whether a value is one of a set of choices.
 - [`is-windows?`](nls/check-windows.nls) `test-windows` (`to-report`): Tests whether the user is running NetLogo on a Windows operating system.
 
@@ -71,7 +71,7 @@ These functions follow NetLogo naming conventions for testing, as well as the co
 - [`assert-dir-exists`](nls/check-dir-exists.nls) (`to`): Asserts that a directory exists.
 - [`assert-file-exists`](nls/check-file-exists.nls) (`to`): Asserts that a file exists.
 - [`assert-gis`](nls/check-gis.nls) (`to`): Asserts that a value is a [GIS dataset](https://ccl.northwestern.edu/netlogo/docs/gis.html#gis:type-of).
-- [`assert-between`](nls/check-between.nls) (`to`): Asserts that a value is between two numbers.
+- [`assert-between`](nls/check-between.nls) (`to`): Asserts that a value is equal or between two numbers.
 - [`assert-choice`](nls/check-choice.nls) (`to`): Asserts that a value is one of a set of choices.
 - [`assert-windows`](nls/check-windows.nls) (`to`): Asserts that the user is running NetLogo on a Windows operating system.
 
@@ -108,7 +108,7 @@ Several other assertion functions are also available. Check the repository [`nls
 - [`single-quote`](nls/single-quote.nls) (`to-report`): Returns values with single quotes. It also works with lists.
 - [`str-detect`](nls/str-detect.nls) (`to-report`): Detects the presence/absence of a match in a string using a regular expression. Returns `true` if the match is found, `false` otherwise.
 - [`str-extract`](nls/str-extract.nls) (`to-report`): Extracts a match from a string using a regular expression. Returns the first match found, or `"NA"` if no match is found.
-- [`str-extract-all`](nls/str-extract-all.nls) (`to-report`): Extracts all matches from a string using a regular expression. Returns a list of all matches found, with `"NA"` for any non-matching elements.
+- [`str-extract-all`](nls/str-extract-all.nls) (`to-report`): Extracts all matches from a string using a regular expression. Returns a list of all matches found, with `false` for any non-matching elements.
 - [`str-remove`](nls/str-remove.nls) (`to-report`): Removes a match from a string using a regular expression. Returns the string with the first match removed, or the original string if no match is found.
 - [`str-remove-all`](nls/str-remove-all.nls) (`to-report`): Removes all matches from a string using a regular expression. Returns the string with all matches removed, or the original string if no matches are found.
 - [`str-replace`](nls/str-replace.nls) (`to-report`): Replaces a match in a string using a regular expression. Returns the string with the first match replaced, or the original string if no match is found.
@@ -118,8 +118,8 @@ Several other assertion functions are also available. Check the repository [`nls
 
 ### World
 
-- [`check-world-bleed`](nls/check-world-bleed.nls) (`to-report`): Checks a range of `pxcor` and `pycor` values to identify any lines of patches with a value of `0`, `NA`, or `NaN`. Returns a list containing two ordered lists: one with the `pxcor` values and one with the `pycor` values of patches that meet this condition. If no such patches are found, both lists are empty.
-- [`remove-world-bleed`](nls/remove-world-bleed.nls) (`to`): Checks for and removes world bleed patches—lines of patches at the edges of the world with values of `0`, `"NA"`, or `NaN`.
+- [`check-world-bleed`](nls/check-world-bleed.nls) (`to-report`): Checks a range of `pxcor` and `pycor` values to identify any lines of patches with a value of `0`, `false`, or `NaN`. Returns a list containing two ordered lists: one with the `pxcor` values and one with the `pycor` values of patches that meet this condition. If no such patches are found, both lists are empty.
+- [`remove-world-bleed`](nls/remove-world-bleed.nls) (`to`): Checks for and removes world bleed patches—lines of patches at the edges of the world with values of `0`, `false`, or `NaN`.
 - [`show-values`](nls/show-values.nls) (`to`): A procedure for use with a `forever` button that displays patch values under the mouse cursor in the NetLogo view. Useful for interactively inspecting patch data during model runs.
 
 ## Citation
