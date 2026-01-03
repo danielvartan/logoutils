@@ -27,6 +27,7 @@
     "nlogo",
     "nlogox",
     "nonmatches",
+    "orcid",
     "pathdir",
     "pcolor",
     "plabel",
@@ -40,6 +41,7 @@
     "sublist",
     "Vartanian",
     "xcor",
-    "ycor"
+    "ycor",
+    "Zenodo"
   ]
 }
